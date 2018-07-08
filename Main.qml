@@ -56,7 +56,7 @@ Item {
         verticalAlignment: Text.AlignVCenter
 
         Behavior on opacity {
-          NumberAnimation { duration: 250; easing.type: Easing.InOutQuad}
+          NumberAnimation { duration: 200; easing.type: Easing.InOutQuad}
         }
       }
 
@@ -93,7 +93,7 @@ Item {
         PropertyAnimation {
           target: sessionSelect
           properties: "opacity"
-          duration: 500
+          duration: 200
         }
       }
     },
@@ -104,7 +104,7 @@ Item {
         PropertyAnimation {
           target: sessionSelect
           properties: "opacity"
-          duration: 500
+          duration: 200
         }
         PropertyAnimation {
           target: sessionSelect
@@ -150,7 +150,7 @@ Item {
       PropertyAnimation {
         target: listView
         properties: "opacity"
-        duration: 500
+        duration: 250
       }
       PropertyAnimation {
         target: listView
@@ -165,7 +165,7 @@ Item {
       PropertyAnimation {
         target: loginFrame
         properties: "opacity"
-        duration: 500
+        duration: 250
       }
     }
   },
@@ -178,7 +178,7 @@ Item {
       PropertyAnimation {
         target: loginFrame
         properties: "opacity"
-        duration: 500
+        duration: 250
       }
       PropertyAnimation {
         target: loginFrame
@@ -193,7 +193,7 @@ Item {
       PropertyAnimation {
         target: listView
         properties: "opacity"
-        duration: 500
+        duration: 250
       }
     }
   }]
